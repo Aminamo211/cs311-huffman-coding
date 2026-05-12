@@ -1,0 +1,23 @@
+Huffman Coding Text File Encoder and Decoder
+Purpose Statement
+The purpose of this project is to create a Huffman Coding program using C++. The program can
+encode and decode text files. Huffman Coding is used in computer science to reduce file size by using
+shorter binary codes for characters that appear more often.
+Introduction and Background
+Data compression is important because it helps save storage and makes files smaller. Huffman Coding
+is a compression algorithm that uses binary trees and frequency counting. Characters that appear
+many times get shorter binary codes, while rare characters get longer codes.
+Implementation
+This project was implemented in C++. The program reads text from input.txt. An unordered_map was
+used to count character frequencies. A priority queue (min heap) was used to build the Huffman Tree.
+The program generates binary codes and stores the encoded message in encoded.txt. The decoded
+text is stored in decoded.txt.
+Results and Analysis
+The program successfully encoded and decoded the text file. The decoded output matched the original
+input. The project demonstrated the use of heaps, binary trees, hash maps, and file input/output.
+Conclusion and Future Work
+This project successfully implemented Huffman Coding using C++. In the future, the program could
+support larger files and real binary compression.
+References
+[1] CS311 Course Materials and ZyBooks. 
+[2] Introduction to Algorithms by Cormen et al.
