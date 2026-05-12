@@ -1,4 +1,4 @@
-# Huffman Coding Project - CS311
+# Huffman Coding Project 
 
 ## Purpose
 This project uses Huffman Coding to encode and decode text files using binary codes.
