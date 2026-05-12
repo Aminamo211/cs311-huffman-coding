@@ -1,2 +1,2 @@
 Huffman coding is a compression algorithm used in computer science.
-This project was created for CS311.
+This project demonstrates text compression and decompression using Huffman Coding in C++.
